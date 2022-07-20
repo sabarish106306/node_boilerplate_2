@@ -1,0 +1,2 @@
+media_details
+CREATE TABLE IF NOT EXISTS media_details (profile_id VARCHAR(55) NOT NULL, media_id VARCHAR(55) PRIMARY KEY NOT NULL, moment_id VARCHAR(55) NOT NULL, media_type VARCHAR(20), media_name VARCHAR(50) NOT NULL, place VARCHAR(100), date Date);
